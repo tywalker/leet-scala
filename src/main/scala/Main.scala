@@ -1,4 +1,5 @@
 import scala.collection.mutable.Map
+import addTwoNumbers.AddTwoNumbers
 
 // two pass hash
 // complexity O(n)
@@ -20,5 +21,7 @@ object Main extends App {
   }
 
   val answer = twoSum(nums, 10)
-  println(answer)
+
+  val aTn = new AddTwoNumbers()
+  aTn.init()
 }

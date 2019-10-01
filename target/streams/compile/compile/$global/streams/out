@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/twalker/Code/Scala/leet-scala/src/main/scala/Main.scala:23:3: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses[0m
-[0m[[0m[33mwarn[0m] [0m[0m  answer[0m
-[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/twalker/Code/Scala/leet-scala/src/main/scala/Main.scala:26:7: value init is not a member of addTwoNumbers.AddTwoNumbers[0m
+[0m[[0m[31merror[0m] [0m[0m  aTn.init()[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
