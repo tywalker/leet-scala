@@ -1,7 +1,17 @@
 package addTwoNumbers
 
 class AddTwoNumbers {
-   def init() = {
-    println("working") 
-   }
+  // create ListNode
+  // create LinkedList
+  def createNode(data: Int) = {
+    val node = Map("data" -> data, "next" -> -1)
+    // id
+    // data
+    // next
+
+  }
+
+  def init() = {
+    println("working")
+  }
 }
