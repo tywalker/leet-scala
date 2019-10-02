@@ -1,4 +1,15 @@
-[0m[[0m[31merror[0m] [0m[0m/home/twalker/Code/Scala/leet-scala/src/main/scala/Main.scala:26:7: value init is not a member of addTwoNumbers.AddTwoNumbers[0m
-[0m[[0m[31merror[0m] [0m[0m  aTn.init()[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/employee/Desktop/Personal-Code/Scala/leets/src/main/scala/AddTwoNumbers.scala:8:19: ambiguous reference to overloaded definition,[0m
+[0m[[0m[31merror[0m] [0m[0mboth variable data in class Node of type => Int[0m
+[0m[[0m[31merror[0m] [0m[0mand  value data in class Node of type Int[0m
+[0m[[0m[31merror[0m] [0m[0mmatch expected type Int[0m
+[0m[[0m[31merror[0m] [0m[0m  var data: Int = data[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/employee/Desktop/Personal-Code/Scala/leets/src/main/scala/AddTwoNumbers.scala:18:12: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : addTwoNumbers.Node[0m
+[0m[[0m[31merror[0m] [0m[0m required: Null[0m
+[0m[[0m[31merror[0m] [0m[0m    head = node[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/employee/Desktop/Personal-Code/Scala/leets/src/main/scala/AddTwoNumbers.scala:21:21: value next is not a member of Null[0m
+[0m[[0m[31merror[0m] [0m[0m  def next() = head.next[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

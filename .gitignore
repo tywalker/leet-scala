@@ -1,32 +1,27 @@
-# sbt
-# (may want to keep parts of 'project')
-bin/
-project/
-target/
-build/
+# Created by Jayesh J.
 
-# eclipse
-build
-.classpath
-.project
-.settings
-.worksheet
-
-# intellij idea
+*.class
 *.log
 *.iml
 *.ipr
 *.iws
 .idea
-
-# mac
-.DS_Store
-
-# other?
-.history
+out
+.cache/
+.history/
+.lib/
+dist/*
+target/
+bin/
+libexec/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+logs/
+project/*-shim.sbt
+project/project/
+project/target/
+target/
 .scala_dependencies
-.cache
-.cache-main
-
-#general
-*.class
+.worksheet
